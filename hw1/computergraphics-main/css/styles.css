@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+nav a {     /*navigation bar squares*/
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 35px;
+    text-decoration: none;   
+    color: white;         
+}
+
+.currentpage {
+    background-color: grey;     /* current page selected */
+}
+
+/* border for pictures */
+.frame {
+    border-color: rgb(43, 43, 43);
+    border-style: double;
+    border-radius: 20px;
+    border-width: 20px;
+}
+
+/* intro paragraphs */
+.intropara {
+  font-size: 30px;  
+  display: flex;
+}
+
+
+/* padding for history paragraph*/
+#historypara {
+    padding: 30px;
+    padding-top: 100px;
+}
+
+
+/* adjust raster and vector image size */
+#rv {
+    height: 450px;
+    width: auto;
+}
+
+/* type of graphics */
+#rastype {
+    color: red;
+}
+#vectype {
+    color: yellow;
+}
+
+
+/* application section adjustments */
+.applicationpic {
+    height: 300px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: rgb(43, 43, 43);
+    border-style:solid;
+    border-radius: 20px;
+    border-width: 20px;
+ 
+}
+.application {
+    font-size: 25px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 75px;
+    padding-left: 75px;
+}
